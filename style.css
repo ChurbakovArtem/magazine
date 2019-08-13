@@ -1,0 +1,108 @@
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+    background: url(header3.jpg) no-repeat center top;
+    background-size: contain;
+    background-color: dodgerblue;
+}
+
+.body {
+    background: #f8f8f8;
+    background-size: 100%;
+}
+
+.menu a {
+    background-color: dodgerblue;
+    color:white;
+    font-size: 15px;
+    border: 2px  solid blue;
+}
+
+.menu a:hover {
+    color:coral;
+}
+
+.two, .three, #pluses {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.two p {
+    color: #707070;
+    font-size: 14px;
+    font-style:italic;
+    line-height: 16px;
+}
+
+#pluses p {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.options {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    list-style-image: url(marker-dl9-spiska-harakterictika.png);
+}
+
+.map {
+    border: 5px solid dodgerblue;
+}
+
+.message {
+  height: 200px;
+  width: 300px;
+  text-align: left;
+}
+
+.tovar {
+    border: 2px solid dodgerblue;
+}
+
+.tovar:hover {
+    border: none;
+}
+
+.one {
+    color: dodgerblue;
+}
+
+.email:focus {
+background-color:deepskyblue;
+    color: blue;
+}
+
+input[type=text] {
+    text-transform: capitalize;
+    
+}
+
+table {
+    height: 100px;
+    width: 100px;
+    border-collapse: collapse;
+}
+
+td {
+   border: 2px solid black; 
+}
+
+p:first-letter {
+    font-size: 25px;
+    font-style:oblique;
+    
+}
+
+span {
+    
+}
